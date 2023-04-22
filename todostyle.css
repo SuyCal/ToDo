@@ -1,0 +1,26 @@
+/*
+Description: Minimal styling for in-class exercise
+Author: PUT YOU NAME HERE
+Email: name@student.curtin.edu
+Tags: Todo
+*/
+
+body {
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.task {
+  list-style: none;
+}
+
+/*Strikethough*/
+.task.completed {
+  text-decoration: line-through;
+}
+
+.task.completed{
+   text-decoration-color: red;
+}
